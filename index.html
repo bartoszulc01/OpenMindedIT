@@ -1,0 +1,150 @@
+<!--<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{
+    height: 100%;
+   
+	font-family: Arial, sans-serif;
+    background-color: #282828;
+	
+}
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+h1
+{
+	text-align: center;
+	
+}
+
+.background
+{
+        
+    
+    margin-top:-100px;
+    position: absolute;
+    margin: auto;
+    max-width: 1000px;
+   
+        
+}
+    .text
+    {
+        border:2px solid;
+        margin-left: auto;
+        margin-right:auto;
+        width: 500px;
+        
+        
+    }
+</style>
+</head>
+<body>
+    <section id="header">
+    
+<div class="container">
+   <img src="background.png" class="background">
+        </div> 
+    
+<div class="text">
+<h1>AVAILABLE IN</h1>
+
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("Aug 5, 2019 15:37:25").getTime();
+
+var x = setInterval(function() {
+
+
+  var now = new Date().getTime();
+    
+  
+  var distance = countDownDate - now;
+    
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+ 
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+ 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+    </div>
+
+        
+    </section>
+</body>
+</html>
+    -->
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>OpenMindedIT</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <body>
+            <section id="header">
+                
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                        <i class="fa fa-bars"></i>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto text-right">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">O NAS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">OFERTA</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">PARTNERZY</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">KONTAKT</a>
+                              </li>
+                                 <li class="nav-item">
+                                <a class="nav-link" href="#">JAK DOJECHAĆ</a>
+                                  </li>
+                            </ul>
+                          </div>
+                </nav>
+            </section>
+            <section id="dupa">
+                <div class="background">
+                    
+                    <center><img src="img/background.png"></center>
+                    <h1>Teleinformatyka z pasją</h1>
+                    
+
+                </div>
+            </section>
+            <section id="dupa2">
+                <h1>dupa</h1>
+            </section>
+        </body>
+    </head>    
+</html>
