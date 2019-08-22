@@ -105,13 +105,18 @@
 }
 .aboutme
 
-{   margin: 20px;
+{   margin: 40px;
     font-size: 16px;
     padding: 20px;
     
     text-align: center;
     
 }
+.modal
+{
+    text-align: center;
+}
+
 /*--services--*/
 #services
 {
@@ -123,7 +128,7 @@
 }
 .servicebox
 {
-    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin-top: 20px;
     padding: 20px;
     border-radius: 5px solid;
@@ -221,11 +226,17 @@
         margin-left: 20px;
         margin-bottom:10px;
     }
-
+.readmore
+{
+    margin-left: 25%;
+    width: 50%;
+        font-size:14px !important;
+}
 .background img
 {
    width: 500px;
    margin-top: 50px;
+
     
 }
 .background h1
