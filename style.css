@@ -116,7 +116,10 @@
 {
     text-align: center;
 }
-
+.modal-title
+{
+    margin-right: -35px !important;
+}
 /*--services--*/
 #services
 {
