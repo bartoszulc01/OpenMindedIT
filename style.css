@@ -168,7 +168,7 @@
 .services-title
 {
     -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
     padding-top:40px;
     padding-bottom: 40px;
     color: #fff;
@@ -186,8 +186,7 @@
 .servicebox
 {
     -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     padding:20px;
     border-radius: 5px solid;
     text-align: center;
@@ -287,7 +286,7 @@
   transition: transform 0.6s;
   transition: transform 0.6s, -webkit-transform 0.6s;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
  
 }
 
@@ -304,6 +303,8 @@
           backface-visibility: hidden;
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
+  visibility:visible;
+  backface-visibility: hidden;
 }
 
 .flip-card-back {
@@ -382,14 +383,14 @@
    color:black !important;
    border-color:orange !important;
 }
-.map-title
+#map-title
 {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.map-title::after
+#map-title::after
 {
     content: '';
     background: orange;
