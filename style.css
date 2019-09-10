@@ -87,17 +87,36 @@
     
    
 }
-/*--aboutme--*/
+/*------------------------------aboutme--------------------------------------*/
 #about
 {
-    background-color: #f8f8ff;
+    background-color: #efefef;
+    padding-bottom: 60px;
     
     
+}
+.about-title
+{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    padding-top:40px;
+    padding-bottom: 40px;
+    color:black;
+    text-align: center;
+    
+}
+.about-title::after
+{
+    content:'';
+    display: block;
+    background: #8bd2e4;
+    height:3px;
+    width:150px;
+    margin:10px auto 5px;
 }
 .profile img
 { 
     
-    margin: 20px;
+    margin: 40px 0px 40px 0px;
     width: 400px;
     border-radius: 100%;
     border:3px solid;
@@ -105,11 +124,11 @@
     
 }
 .aboutme
-
-{   margin: 40px;
-    font-size: 16px;
+{   
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    margin: 40px;
+    font-size: 18px;
     padding: 20px;
-    
     text-align: center;
     
 }
@@ -120,15 +139,45 @@
 .modal-title
 {
     margin-right: -35px !important;
+    
 }
-/*--services--*/
+.readmore
+{
+    background-color:#8bd2e4 !important;
+    border-color:orange !important;
+    color:black !important;
+    
+}
+.button_readmore
+{
+    text-align: center !important;
+}
+/*-----------------------------------------------services---------------------------------------------------------*/
 #services
 {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/background-services.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
+    padding-bottom: 60px;
   
+}
+.services-title
+{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    padding-top:40px;
+    padding-bottom: 40px;
+    color: #fff;
+    text-align: center;
+}
+.services-title:after
+{
+    content: '';
+    background: orange;
+    display:block;
+    height:3px;
+    width:130px;
+    margin:10px auto 5px;
 }
 .servicebox
 {
@@ -215,6 +264,75 @@
     font-size:18px !important;
     color:floralwhite;
 }
+/*contact*/
+#contact
+{
+    background: #efefef;
+   
+    
+    
+}
+.contact-title
+{
+    padding-top:40px;
+    padding-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    
+}
+.contact-title::after
+{
+    content: '';
+    background: #8bd2e4;
+    display:block;
+    height:3px;
+    width:150px;
+    margin:10px auto 5px;
+    
+}
+.contact-form
+{
+    padding:15px;
+    
+}
+.follow
+{
+    background: #fff;
+    padding:10px;
+    margin:15px;
+    
+}
+.button
+{
+    
+   text-align: center!important;
+   
+    
+}
+.button_contact
+{
+   background-color:#8bd2e4 !important;
+   color:black !important;
+   border-color:orange !important;
+}
+.map-title
+{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.map-title::after
+{
+    content: '';
+    background: orange;
+    display:block;
+    height:3px;
+    width:250px;
+    margin:10px auto 5px;
+
+}
+.map
 
 /*--media_query--*/
 @media (max-width:1240px){
