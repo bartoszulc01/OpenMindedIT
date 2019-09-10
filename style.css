@@ -584,5 +584,26 @@
     margin-top:200px;
 }
 
+        .servicebox .title
+{
+    display:inline-block;
+    font-size:25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+    .flip-card-back ul
+{
+    list-style: none;
+    font-size:12px;
+}
+.flip-card-back h1
+{
+    font-size:18px;
+    font-weight: bold;
+}
 }
 
